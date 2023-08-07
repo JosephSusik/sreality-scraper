@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.2",
+    "puppeteer": "^21.0.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.2",
+    "ts-node-dev": "^2.0.0"
+  },
+  "scripts": {
+      "dev": "ts-node-dev src/index.ts",
+      "build": "tsc",
+      "start": "npm run build && node dist/index.js"
+  }
+}

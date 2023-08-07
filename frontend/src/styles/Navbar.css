@@ -1,0 +1,35 @@
+nav {
+    width: 100vw;
+    height: 64px;
+
+    height: clamp(32px, 5vw, 64px);
+
+    border-bottom: 1px solid black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-content {
+    width: 80%;
+
+    display: flex;
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+    align-items: center;
+}
+
+.nav-content a {
+    all: unset;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-content a:hover {
+    cursor: pointer;
+}
